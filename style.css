@@ -1,0 +1,35 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+
+    font-family: Playfair Display,serif;
+}
+.darken {
+    filter: brightness(60%);
+  }
+  .feature-dish{
+    margin-left: -78px;
+  }
+  #reservation{
+    padding: 17px 0;
+  }
+  
+ 
+
+  @media only screen and (max-width: 767px) {
+    #feature-item{
+      display: none;
+    }
+    #gallery{
+      display: none;
+    }
+   
+  }
+  
+  /* Medium devices (tablets) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    #feature-item{
+      display: none;
+    }
+    #gallery{
+      display: none;
+    }
+  }
